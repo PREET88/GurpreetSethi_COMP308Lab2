@@ -1,0 +1,19 @@
+{
+  "name": "gurpreet-sethi_comp308-lab2",
+  "version": "0.0.0",
+  "description": "GurpreetSethi_COMP308Lab2",
+  "main": "server.js",
+  "author": {
+    "name": "gurpreet"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "compression": "^1.7.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.8",
+    "morgan": "^1.9.0"
+  }
+}

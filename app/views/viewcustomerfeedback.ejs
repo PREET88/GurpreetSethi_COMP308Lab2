@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <link href="css/Style.css" rel="stylesheet">
+
+
+</head>
+<body>
+   
+        <table class="center">
+            <tr>
+
+                <td>
+                    <div>
+                        <label>Email</label>
+                    </div>
+                </td>
+                <td>
+                    <div>
+                        <label>Comments: </label>
+                    </div>
+
+                </td>
+            </tr>
+
+
+            <% feedbacks.forEach(function(feedbacks){ %>
+
+            <tr>
+                <td>
+                    <div>
+
+                        <input type="text" name="email" value="<%= feedbacks.email %>" />
+                    </div>
+
+                </td>
+                <td>
+                    <div>
+                        <input type="text" name="feedback" value="<%= feedbacks.feedback %>" />
+                    </div>
+
+                </td>
+
+            </tr>
+
+            <% })%>
+
+        </table>
+
+        <a href="http://localhost:3000"> Main Page</a>
+    </div>
+</body>
+</html>

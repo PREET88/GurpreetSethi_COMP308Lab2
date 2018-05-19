@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Login Page</title>
+    <link href="css/stylesheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+
+
+            <h1><%=title%></h1>
+           <form method = "post" action="/feedback">
+                <label> ENTER THE USERNAME</label><br />
+                <input type="text" size="30" name="email" placeholder="Enter email here" /><br />
+                <label>ENTER THE PASSWORD</label><br />
+                <input type="password" size="30" name="password" /><br />
+                <input type="submit" value="LOGIN" name="lgin" />
+                <a href="/signup">Click here to Signup</a>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

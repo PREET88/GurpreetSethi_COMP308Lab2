@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Feedback</title>
+    <link href="css/stylesheet.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="login-page">
+        <div class="form">
+
+            <h1><Feedback></h1>
+            <form method="post" action="/thankyou">
+
+                ENTER THE FIRST NAME:
+                <input type="text" size="30" name="firstName" placeholder="Enter first name here" value="<%=firstName%>">
+                <label>ENTER THE LAST NAME</label><br />
+                <input type="text" size="30" name="lastName" placeholder="Enter last name here" value="<%=lastName%>"><br />
+                <label>ENTER THE EMAIL</label><br />
+                <input type="text" name="email" value="<%=email%>" ><br />
+                <label>ENTER YOUR COMMENTS</label><br />
+                <textarea name="feedback" placeholder="Enter comments here"></textarea><br />
+                <label>ENTER FAVOURITE SPORT</label><br />
+                <input type="text" size="30" name="favouriteSport" placeholder="Enter favourite sport here" value="<%=favouriteSport%>" ><br />
+                <label>STRONGEST TECHNICAL SKILL</label><br />
+                <input type="text" size="30" name="skill" placeholder="Enter strongest technical skill here" value="<%=skill%>" ><br />
+                <input type="SUBMIT" value="SUBMIT" name="sbmit" >
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
